@@ -1,5 +1,25 @@
 .App {
   text-align: center;
+   /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; */
+    /* margin: 0; */
+    background-color: #3b3a3a;
+    font-family: "Playwrite NG Modern";
+  
+}
+
+.about-page{
+  font-size: 23px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: black;
+  text-align: center;
+}
+
+.about-page h2{
+  color: Black;
 }
 
 .App-logo {

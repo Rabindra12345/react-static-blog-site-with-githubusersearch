@@ -1,0 +1,86 @@
+/* App.css */
+
+.form-container {
+    margin: 0 auto; /* Centers the form horizontally */
+    background-color: transparent;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+    font-family: "Playwrite NG Modern";
+
+  }
+  
+  .form-group input{
+    /* margin-bottom: 15px; */
+    font-size: 25px;
+    /* background-color: transparent; */
+    width: 100%;
+
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* box-sizing: border-box; */
+    font-family: "Playwrite NG Modern";
+    /* font-size: 6px; */
+    background-color: transparent;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  textarea.form-control {
+    /* height: 100px; */
+    /* resize: none; */
+    font-family: "Playwrite NG Modern";
+    font-size: 25px;
+
+    /* background-color: transparent; */
+
+  }
+
+  .button-group input{
+    width: 100%;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* .btn-xl {
+    width: 100%;
+  } */
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

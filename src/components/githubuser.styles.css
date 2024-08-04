@@ -1,0 +1,159 @@
+.App{
+      font-family: "Playwrite NG Modern";
+}
+
+.title {
+  font-size:70px;
+  color:black;
+  position: relative;
+  font-family: "Playwrite NG Modern";
+  width: 100%;
+  /* font-size: 203px; */
+
+}
+
+
+.App input{
+  /* margin-left: 200%; */
+  height: 40px;
+  width: 400px;
+  font-size: large;
+  border-radius: 20px;
+}
+
+
+.github-result{
+  border-color: red;
+  font-size: 25px;
+}
+
+.github-result img{
+  height: 35%;
+  width: 35%;
+  border-radius: 50%;
+  background-color: transparent;
+  
+}
+
+.github-result table{
+  font-family: "Playwrite NG Modern";
+  border-collapse: collapse;
+  margin-left: 20%;
+  width: 60%;
+  font-size: 15px;
+
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%; /* Ensure the container spans full width */
+}
+
+.search-bar {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: width 0.3s ease;
+  width: 50%; /* Default width */
+  max-width: 400px; /* Maximum width */
+  min-width: 200px; /* Minimum width to prevent too small on large screens */
+}
+
+.search-field {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-field:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .search-bar {
+    width: 70%;
+    font-size: 14px;
+    padding: 8px;
+  }
+  
+  .search-field {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .search-bar {
+    width: 80%;
+    font-size: 12px;
+    padding: 6px;
+  }
+  
+  .search-field {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 300px) {
+  .search-bar {
+    width: 90%;
+    font-size: 10px;
+    padding: 4px;
+  }
+  
+  .search-field {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+}
+
+
+
+
+/* .user-details td, .user-details th {
+  border: 3px solid #ddd;
+  padding: 8px;
+}
+
+.user-details tr:nth-child(even){background-color: #f2f2f2;}
+
+.user-details tr:hover {background-color:blue;}
+
+.user-details th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  /* background-color: transparent; */
+  /* color: white; */
+/* } */
+
+.github-link{
+  /* margin-top:10px; */
+  /* margin-left: 20%; */
+  width:60% ;
+  font-size: 40px;
+  font-family: "Playwrite NG Modern";
+  /* margin-top: 20000px; */
+ } 
+
+
+ /*for making table content responsive*/
+ 
+
+ @media (max-width: 600px) {
+  .github-result table {
+    font-size: 10px;
+  }
+}
